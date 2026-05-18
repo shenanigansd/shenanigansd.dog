@@ -9,10 +9,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^6.2.2"
+    "astro": "^6.3.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.14"
+    "@biomejs/biome": "2.4.15"
   },
   "engines": {
     "node": ">=24.12.0"
