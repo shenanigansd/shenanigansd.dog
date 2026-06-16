@@ -14,10 +14,8 @@ updates:
   - package-ecosystem: npm
     directory: /
     schedule:
-      interval: monthly
+      interval: daily
     groups:
       javascript-dependencies:
         patterns:
           - "*"
-    cooldown:
-      default-days: 7
