@@ -1,8 +1,5 @@
 import { bindings, defineWorker } from "wrangler/experimental-config";
 
-// Experimental TypeScript Worker config (wrangler --x-new-config).
-// Runtime settings live here; the assets directory lives in
-// wrangler.config.ts as the only tooling-side asset setting.
 export default defineWorker({
   name: "shenanigansd-dog",
   compatibilityDate: "2026-06-08",
