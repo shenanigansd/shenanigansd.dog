@@ -1,7 +1,6 @@
 import { execSync } from "node:child_process";
 
-export const REPO_URL =
-  "https://github.com/shenanigansd/shenanigans.dog";
+export const REPO_URL = "https://github.com/shenanigansd/shenanigans.dog";
 
 export const GIT_COMMIT_HASH = (() => {
   try {
